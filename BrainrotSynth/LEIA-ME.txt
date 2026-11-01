@@ -1,0 +1,13 @@
+BRAINROT SYNTH (VST3) - como gerar o plugin (precisa de um navegador de PC)
+
+1) Descompacte este zip e crie um repositorio novo no github.com.
+2) Add file > Upload files: arraste TUDO (CMakeLists.txt, Source, Samples, .github).
+   Se a pasta .github nao subir: Add file > Create new file, nome ".github/workflows/build.yml", cole o conteudo.
+3) Aba Actions > "Build VST3" roda sozinho (10-15 min). Ficou verde = pronto.
+4) Entre nele e baixe o artifact "BrainrotSynth-VST3-Windows".
+5) Copie a pasta "Brainrot Synth.vst3" para C:\Program Files\Common Files\VST3
+6) FL Studio: Options > Manage plugins > Find installed plugins. Aparece em Generators.
+
+Interface: clique nos 8 pads pra trocar de personagem, arraste a barra GOOFY<->DARK, gire os knobs
+(duplo clique volta ao padrao). O visualizador reage ao som.
+Tocar: C5 (nota 60) = som original; outras teclas mudam o pitch.
